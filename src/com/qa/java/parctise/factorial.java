@@ -1,4 +1,4 @@
-package com.qa.java.parctise;
+ package com.qa.java.parctise;
 
 public class factorial {
 

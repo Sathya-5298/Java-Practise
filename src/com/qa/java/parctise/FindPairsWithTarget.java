@@ -5,7 +5,7 @@ public class FindPairsWithTarget
 	public static void main(String[] args) 
 	{
 		int [] arr = {2,5,9,8,-2,1,7,0};
-		int target = 20;
+		int target = 8;
 		
 		findPairs(arr, target);
 		
