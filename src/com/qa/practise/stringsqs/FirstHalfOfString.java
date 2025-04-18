@@ -20,7 +20,7 @@ public class FirstHalfOfString
 		{
 			if(i < n)
 			{
-			System.out.println(letter[i]);
+				System.out.println(letter[i]);
 			}
 		}
 	}

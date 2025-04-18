@@ -4,7 +4,7 @@ public class DuplicateInString
 {
 	public static void main(String[] args) 
 	{
-		String s = "abcde";
+		String s = "abcdeaa";
 		
 		boolean found = false;
 		
@@ -13,7 +13,9 @@ public class DuplicateInString
 			if(s.charAt(i) == s.charAt(i + 1))
 			{
 				found = true;
+				System.out.println(s.charAt(i));
 				break;
+				
 			}
 		}
 		System.out.println(found);
