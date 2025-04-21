@@ -29,7 +29,6 @@ public class EvenOddSeperator {
 		{
 			System.out.println(res[i]);
 		}
-		
 		System.out.println(Arrays.toString(res));
 	}
 
