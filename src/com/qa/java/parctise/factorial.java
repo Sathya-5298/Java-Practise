@@ -12,6 +12,19 @@ public class factorial {
 			fact = fact * i;
 		}
 		System.out.println(fact);
+		
+		System.out.println(factorialRecurssion(7));
 	}
-
+	
+	public static int factorialRecurssion(int n)
+	{
+		if(n <= 1)
+		{
+			return 1;
+		}
+		else
+		{
+			return n * factorialRecurssion(n - 1);
+		}
+	}
 }
