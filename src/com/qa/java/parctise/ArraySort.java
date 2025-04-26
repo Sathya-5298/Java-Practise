@@ -29,7 +29,7 @@ public class ArraySort
 			System.out.print(arr[i] + " ");
 		}
 		
-		System.out.println("\nLargest: " + arr[size -1]); //Largest in array
+		System.out.println("\nLargest: " + arr[size - 1]); //Largest in array
 		System.out.println("Smallest: " + arr[0]); // smallest in array
 	}
 

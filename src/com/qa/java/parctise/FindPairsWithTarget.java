@@ -19,7 +19,7 @@ public class FindPairsWithTarget
 			{
 				if(arr[i] + arr[j] == target)
 				{
-					System.out.println("("+arr[i]+","+arr[j]+")");
+					System.out.println("(" + arr[i] + "," + arr[j] + ")");
 					pairfound = true;
 				}
 			}	
