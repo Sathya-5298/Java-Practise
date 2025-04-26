@@ -1,14 +1,11 @@
 package com.qa.practise.stringsqs;
 
-import java.util.Scanner;
-
 public class CharMaxOccuranceFinder {
 
 	public static void main(String[] args) 
 	{
-		Scanner scn = new Scanner(System.in);
-		System.out.println("Enter a String");
-		String input = scn.next();
+		
+		String input = "qsedrfqseqqq";
 		int[] arr = new int[256];
 		int max = 0;
 		
@@ -25,6 +22,5 @@ public class CharMaxOccuranceFinder {
 			}
 		}
 		System.out.println("Maximun Char Occuared is : " + (char)max);
-		scn.close();
 	}
 }

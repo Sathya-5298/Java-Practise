@@ -8,7 +8,7 @@ public class DuplicateCharGenerator
 		
 		StringBuffer sb = new StringBuffer();
 		
-		for(int i =0; i < s.length(); i++)
+		for(int i = 0; i < s.length(); i++)
 		{
 			sb.append(s.charAt(i));
 			sb.append(s.charAt(i));
