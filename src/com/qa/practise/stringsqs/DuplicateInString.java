@@ -15,10 +15,8 @@ public class DuplicateInString
 				found = true;
 				System.out.println(s.charAt(i));
 				break;
-				
 			}
 		}
 		System.out.println(found);
 	}
-
 }
