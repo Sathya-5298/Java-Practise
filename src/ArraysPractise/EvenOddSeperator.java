@@ -31,5 +31,4 @@ public class EvenOddSeperator {
 		}
 		System.out.println(Arrays.toString(res));
 	}
-
 }

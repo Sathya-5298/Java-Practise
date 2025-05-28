@@ -20,5 +20,4 @@ public class ArrayReverse {
 		}
 		System.out.println(Arrays.toString(arr));
 	}
-
 }
