@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class FrequencyOfChars 
 {
 	public static void main(String[] args) {
-		String s = "Hamollo";
+		String s = "SathyaMurthy";
 		
 		HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 		char[] ch = s.toCharArray();
