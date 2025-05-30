@@ -50,8 +50,6 @@ public class LongestSubstringWithoutRepeatingCharacters
 			maxLength = Math.max(maxLength, end - start + 1);
 		}
 		System.out.println(map.keySet());
-		return maxLength;
-		
-		
+		return maxLength;	
 	}
 }
