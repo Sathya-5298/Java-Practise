@@ -21,5 +21,7 @@ public class FrequencyOfChars
 		{
 				System.out.println(c + " Frequency " + hm.get(c));
 		}
+		
+		System.out.println(hm);
 	}
 }
