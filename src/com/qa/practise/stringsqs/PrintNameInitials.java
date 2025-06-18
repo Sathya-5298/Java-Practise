@@ -17,7 +17,6 @@ public class PrintNameInitials {
 				sb.append(part.charAt(0)).append(". ");
 			}
 		}
-		
 		System.out.println("Intials: " + sb.toString().trim());
 	}
 }
