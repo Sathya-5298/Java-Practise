@@ -1,6 +1,5 @@
 package ArraysPractise;
 
-
 public class ArrayMatrix 
 {
 	public static void main(String[] args) 

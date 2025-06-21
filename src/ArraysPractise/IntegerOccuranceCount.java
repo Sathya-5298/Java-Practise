@@ -1,6 +1,7 @@
 package ArraysPractise;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class IntegerOccuranceCount 
@@ -23,5 +24,13 @@ public class IntegerOccuranceCount
 			}
 		}
 		System.out.println("Occurance: " + iMap);
+		
+		Iterator<Map.Entry<Integer, Integer>> itr = iMap.entrySet().iterator();
+	    
+	    while(itr.hasNext())
+	    {
+	        Map.Entry<Integer, Integer> entry = itr.next();
+	        System.out.println(entry.getKey() + "-->" + entry.getValue());
+	    }
 	}
 }

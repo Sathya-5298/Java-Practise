@@ -2,8 +2,8 @@ package ArraysPractise;
 
 import java.util.Arrays;
 
-public class ArrayReverse {
-
+public class ArrayReverse 
+{
 	public static void main(String[] args) 
 	{
 		int[] arr = {2,5,1,9,9,8};
