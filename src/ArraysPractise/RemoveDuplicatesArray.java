@@ -1,6 +1,7 @@
 package ArraysPractise;
 
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.List;
 
@@ -24,6 +25,13 @@ public class RemoveDuplicatesArray
 	    {
 	    	d.add(arr[i]);
 	    }
-	    System.out.print(d);
+	    System.out.println(d);
+	    
+	    Iterator<String> itr = d.iterator();
+		   
+		   while(itr.hasNext())
+		   {
+		       System.out.println(itr.next());
+		   }
 	}
 }
