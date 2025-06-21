@@ -22,7 +22,7 @@ public class CollectionsSample {
 		
 		while(val.hasNext())
 		{
-			System.out.println( val.next());
+			System.out.println(val.next());
 		}
 	}
 

@@ -13,8 +13,10 @@ public class OddOrEven {
 		scn.close();
 	}
 
-	public static void oddOrEven(int num) {
-		if (num % 2 == 0) {
+	public static void oddOrEven(int num) 
+	{
+		if (num % 2 == 0) 
+		{
 			System.out.println(num + " is a Even number");
 		} 
 		else 
