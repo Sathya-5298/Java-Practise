@@ -1,4 +1,4 @@
-package com.qa.java.parctise;
+package com.qa.practise.stringsqs;
 
 public class WordReverseString {
 
