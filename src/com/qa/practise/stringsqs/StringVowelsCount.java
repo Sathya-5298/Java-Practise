@@ -23,5 +23,18 @@ public class StringVowelsCount {
 		}
 		System.out.println(vowels);
 		System.out.println(consonants);
+		
+		String vowel = "aeiouAEIOU";
+		char[] ch = s.toCharArray();
+		int count = 0;
+		
+		for(char c: ch)
+		{
+			if(vowel.indexOf(c) != -1)
+			{
+				count++;
+			}
+		}
+		System.out.println("VowelsCount:" + count);
 	}
 }
