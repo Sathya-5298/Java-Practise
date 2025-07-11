@@ -16,8 +16,7 @@ public class StringAnagarams {
 		Arrays.sort(ch2);
 		
 		boolean b = Arrays.equals(ch1, ch2);
-		System.out.println(b);
-		
+		System.out.println(b + " " + s1 + " and " + s2 + " are Anagarams ");
 		
 	}
 }
