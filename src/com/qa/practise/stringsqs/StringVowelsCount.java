@@ -9,10 +9,9 @@ public class StringVowelsCount {
 		int vowels = 0;
 		int consonants = 0;
 		
-		for(int i =0; i < s.length(); i++)
+		for(char ch : s.toCharArray())
 		{
-			if(s.charAt(i) == 'A' || s.charAt(i) == 'E' || s.charAt(i) == 'I' || s.charAt(i) == 'O' || s.charAt(i) == 'U' || s.charAt(i) == 'a' || 
-					s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o' || s.charAt(i) == 'u')
+			if(isVowels(ch))
 			{
 				vowels++;
 			}
@@ -23,6 +22,7 @@ public class StringVowelsCount {
 		}
 		System.out.println(vowels);
 		System.out.println(consonants);
+		
 		
 		String vowel = "aeiouAEIOU";
 		char[] ch = s.toCharArray();
@@ -36,5 +36,18 @@ public class StringVowelsCount {
 			}
 		}
 		System.out.println("VowelsCount:" + count);
+	}
+	
+	public static boolean isVowels(char ch)
+	{
+		if(ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' || ch == 'a' || ch == 'e' ||
+				ch == 'i' || ch == 'o' || ch == 'u')
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }
