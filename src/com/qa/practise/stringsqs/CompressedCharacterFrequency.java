@@ -4,7 +4,7 @@ public class CompressedCharacterFrequency
 {
 	public static void main(String[] args) 
 	{
-		String input = "aaaabbbccd";
+		String input = "abbcccdddd";
 		
 		StringBuilder sb = new StringBuilder();
 		int count = 1;
