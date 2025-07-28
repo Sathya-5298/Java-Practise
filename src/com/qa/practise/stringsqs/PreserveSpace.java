@@ -1,6 +1,6 @@
 package com.qa.practise.stringsqs;
 
-public class preserveSpace {
+public class PreserveSpace {
 
 	public static void main(String[] args) 
 	{
