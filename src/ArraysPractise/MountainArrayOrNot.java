@@ -5,7 +5,16 @@ public class MountainArrayOrNot {
 	public static void main(String[] args) 
 	{
 		int[] a = {1,2,4,6,5,3,0};
-		System.out.println(checkMountainArray(a));
+		boolean result = checkMountainArray(a);
+		
+		if(result)
+		{
+			System.out.println("Given araay is Mountain array");
+		}
+		else
+		{
+			System.out.println("Given araay is not a Mountain array");
+		}
 	}
 
 	private static boolean checkMountainArray(int[] a) 
@@ -24,7 +33,6 @@ public class MountainArrayOrNot {
 		while(i + 1 < a.length && a[i] > a[i + 1])
 		{
 			i++;
-			
 		}
 		
 		if(a.length - 1 == i)

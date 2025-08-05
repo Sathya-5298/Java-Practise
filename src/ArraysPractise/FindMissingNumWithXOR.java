@@ -9,7 +9,7 @@ public class FindMissingNumWithXOR
 		
 		for(int num: arr)
 		{
-			missingNum = missingNum ^ num;
+			missingNum = missingNum ^ num; // XOR - Both are same False and Both are different true
 		}
 		System.out.println(missingNum);
 	}

@@ -4,10 +4,9 @@ public class ArrayIsMonotonicOrNot {
 
 	public static void main(String[] args) 
 	{
-		int[] a = {6,5,4,2,1};
-		
+		int[] a = {5,4,3,2,1};		
 		boolean increasing = true;
-		boolean decreasing = false;
+		boolean decreasing = true;
 		
 		for(int  i = 1; i <= a.length - 1; i++)
 		{
