@@ -6,7 +6,7 @@ public class PrimeNumber1to100 {
 	{
 		int n, i;
 		
-		for(n = 1; n <= 10; n++)
+		for(n = 10; n <= 60; n++)
 		{
 			for( i = 2; i <= n/2; i++)
 			{
