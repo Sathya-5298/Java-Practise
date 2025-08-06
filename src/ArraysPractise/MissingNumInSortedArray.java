@@ -4,16 +4,17 @@ public class MissingNumInSortedArray {
 
 	public static void main(String[] args) 
 	{
-		int[] arr = {2,1,0,4};
-		
-		int n = arr.length;
-		
-		int total = n*(n + 1)/2;
-		
-		for(int num : arr)
-		{
-			total -= num;
-		}
-		System.out.println(total + " is missing in array");
+		 int[] input = {1,2,3,4,5,6,7,8,10};
+		 int  n = input.length + 1;
+		 
+		 int total = n*(n + 1)/2;
+		 int sum = 0;
+		 
+		 for(int num : input)
+		 {
+			 sum = sum + num;
+		 }
+		 int missingNumber = total - sum;
+		 System.out.println(missingNumber);
 	}
 }
