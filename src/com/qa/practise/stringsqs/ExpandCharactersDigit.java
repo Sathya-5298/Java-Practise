@@ -5,18 +5,22 @@ public class ExpandCharactersDigit {
 	public static void main(String[] args) 
 	{
 		String input = "a1b2c3d4";
-		StringBuilder sb = new StringBuilder();
 		
-		for(int i = 0; i < input.length(); i = i + 2)
+		for(int i = 0; i < input.length(); i++)
 		{
-			char ch = input.charAt(i);
-			int count = input.charAt(i + 1) - '0';
-			
-			for(int j = 0; j < count; j++)
+			if(Character.isAlphabetic(input.charAt(i)))
 			{
-				sb.append(ch);
+				System.out.print(input.charAt(i));
+			}
+			else
+			{
+				int x = Character.getNumericValue(input.charAt(i));
+				
+				for(int j = 1; j < x; j++)
+				{
+					System.out.print(input.charAt(i - 1));
+				}
 			}
 		}
-		System.out.println(sb.toString());
 	}
 }
