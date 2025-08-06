@@ -22,5 +22,7 @@ public class CharMaxOccuranceFinder {
 			}
 		}
 		System.out.println("Maximun Char Occuared is : " + (char)max);
+		
+		System.out.println('a'+'b'+ 'c');
 	}
 }
