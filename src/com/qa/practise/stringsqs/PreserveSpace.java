@@ -4,7 +4,7 @@ public class PreserveSpace {
 
 	public static void main(String[] args) 
 	{
-		String str = "AWS Cloud Quest: Recertify Cloud Practitioner";
+		String str = "AWS Cloud Quest Recertify Cloud Practitioner";
 		
 		int n = str.length();
 		int start = 0;
