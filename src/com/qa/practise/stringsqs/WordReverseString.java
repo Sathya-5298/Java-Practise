@@ -21,5 +21,7 @@ public class WordReverseString {
 			reverse = reverse + temp + " ";
 		}
 		System.out.println(reverse);
+		
+		System.out.println('a' + 'd');
 	}
 }
