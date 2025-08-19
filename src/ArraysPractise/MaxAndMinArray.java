@@ -7,8 +7,8 @@ public class MaxAndMinArray {
 		int[] arr = {2,5,1,9,7,8};
 		int n = arr.length;
 		
-		int max = arr[0];
-		int min = arr[0];
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
 		
 		for(int i = 0; i < n; i++)
 		{
