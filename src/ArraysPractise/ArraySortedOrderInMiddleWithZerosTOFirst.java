@@ -34,6 +34,8 @@ public class ArraySortedOrderInMiddleWithZerosTOFirst {
 			}
 		}
 		
+		System.out.println(Arrays.toString(result));
+		
 		for(int num : result)
 		{
 			System.out.println(num);
